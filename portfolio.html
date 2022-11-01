@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href=".//css/styles.css" />
-    <title>Портфоліо</title>
-  </head>
-  <body>
-    <header>
-      <a lang="en" href="./index.html"><span>Web</span>Studio</a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Студія</a>
-          </li>
-          <li>
-            <a href="#">Портфоліо</a>
-          </li>
-          <li>
-            <a href="#">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href=".//css/styles.css" />
+  <title>Web Studio</title>
+</head>
+
+<body>
+  <header class="header">
+    <a class="header-logo logo" href="#"><span class="logo-text">Web</span>Studio</a>
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-link" href="./index.html">Студія</a>
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="nav-list-item">
+          <a class="nav-link current" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="#">Контакти</a>
         </li>
       </ul>
-    </header>
+    </nav>
+    <ul class="header-list">
+      <li class="header-list-item">
+        <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+      <li class="header-list-item">
+        <a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a>
+      </li>
+    </ul>
+  </header>
     <main>
       <h1>Портфоліо</h1>
       <ul>
@@ -43,11 +49,14 @@
       </ul>
       <ul>
         <li>
-          <img src="./images/web.jpg" width="370" height="294" alt="Web site photo" />
-          <h2>Технокряк</h2>
-          <p>Веб-сайт</p>
+          <a href="#">
+            <img src="./images/web.jpg" width="370" height="294" alt="Web site photo" />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </a>
         </li>
         <li>
+          <a href="#">
           <img
             src="./images/design.jpg"
             width="370"
@@ -56,38 +65,52 @@
           />
           <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
           <p>Дизайн</p>
+        </a>
         </li>
         <li>
+          <a href="#">
           <img src="./images/app.jpg" width="370" height="294" alt="App Seafood photo" />
           <h2>Ресторан Seafood</h2>
           <p>Додаток</p>
+          </a>
         </li>
         <li>
+          <a href="">
           <img src="./images/prime.jpg" width="370" height="294" alt="Prime photo" />
           <h2>Проєкт Prime</h2>
           <p>Маркетинг</p>
+          </a>
         </li>
         <li>
+          <a href="#"></a>
           <img src="./images/boxes.jpg" width="370" height="294" alt="App Boxes photo" />
           <h2>Проєкт Boxes</h2>
           <p>Додаток</p>
+          </a>
         </li>
         <li>
+          <a href="#">
           <img src="./images/web2.jpg" width="370" height="294" alt="Web site photo" />
           <h2>Inspiration has no Borders</h2>
           <p>Веб-сайт</p>
+          </a>
         </li>
         <li>
+          <a href="#">
           <img src="./images/design2.jpg" width="370" height="294" alt="Edition Limited Edition" />
           <h2>Видання Limited Edition</h2>
           <p>Дизайн</p>
+          </a>
         </li>
         <li>
+          <a href="#">
           <img src="./images/lab.jpg" width="370" height="294" alt="LAB project photo" />
           <h2>Проєкт LAB</h2>
           <p>Маркетинг</p>
+          </a>
         </li>
         <li>
+          <a href="#">
           <img
             src="./images/business.jpg"
             width="370"
@@ -96,6 +119,7 @@
           />
           <h2>Growing Business</h2>
           <p>Додаток</p>
+          </a>
         </li>
       </ul>
     </main>
