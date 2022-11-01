@@ -10,7 +10,7 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  background: var(--background-white)
+  background: var(--background-white);
 }
 
 ul {
@@ -130,7 +130,7 @@ ul {
 
 /* -----------------OUR TEAM----------------- */
 .team {
-  background: var(--background-light-gray)
+  background: var(--background-light-gray);
 }
 
 .team-uptitel {
@@ -179,6 +179,7 @@ ul {
 /* ------------PORTFOLIO----------------- */
 
 .menu-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
