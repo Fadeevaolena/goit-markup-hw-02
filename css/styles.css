@@ -5,10 +5,12 @@
   --effect-color: #2196f3;
   --titel-white: #ffffff;
   --background-gray: #2f303a;
+  --background-white: #ffffff;
+  --background-light-gray: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
-  background: #ffffff;
+  background: var(--background-white)
 }
 
 ul {
@@ -48,9 +50,10 @@ ul {
 .header-link {
   color: var(--gray-light);
 }
+
 .header-link:hover,
 .header-link:focus {
-  color: var(--effect-col);
+  color: var(--effect-color);
 }
 /* ---------------HERO-------------- */
 .hero {
@@ -127,7 +130,7 @@ ul {
 
 /* -----------------OUR TEAM----------------- */
 .team {
-  background: #f5f4fa;
+  background: var(--background-light-gray)
 }
 
 .team-uptitel {
@@ -166,6 +169,11 @@ ul {
 
 .map {
   color: var(--titel-white);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--effect-color);
 }
 
 /* ------------PORTFOLIO----------------- */
