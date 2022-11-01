@@ -2,17 +2,19 @@
   --font-Ral: Raleway, sans-serif;
   --first-gray: #212121;
   --gray-light: #757575;
-  --effect-col: #2196f3;
+  --effect-color: #2196f3;
   --titel-white: #ffffff;
-  --background-gray:#2f303a;
+  --background-gray: #2f303a;
 }
 body {
   font-family: Roboto, sans-serif;
   background: #ffffff;
 }
+
 ul {
   list-style: none;
 }
+
 .logo {
   font-family: var(--font-Ral);
   font-weight: 700;
@@ -25,36 +27,34 @@ ul {
   text-decoration: none;
 }
 .logo-text {
-  color: var(--effect-col);
+  color: var(--effect-color);
 }
-.nav-link {
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1429;
   letter-spacing: 0.02em;
-  color: var(--first-gray);
   text-decoration: none;
+}
+.nav-link {
+  color: var(--first-gray);
 }
 .nav-link:hover,
 .nav-link:focus,
-.nav-link.current,
-.header-link {
-  color: var(--effect-col);
+.nav-link.current {
+  color: var(--effect-color);
 }
+
 .header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1429;
-  letter-spacing: 0.02em;
   color: var(--gray-light);
-  text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--effect-col);
 }
+/* ---------------HERO-------------- */
 .hero {
-  background: var(--background-gray)
+  background: var(--background-gray);
 }
 
 .hero-titel {
@@ -72,15 +72,14 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: block;
+  display: flex;
   align-items: center;
   text-align: center;
   margin: auto;
   letter-spacing: 0.06em;
   color: var(--titel-white);
-  background: var(--effect-col);
+  background: var(--effect-color);
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
 }
@@ -101,7 +100,7 @@ ul {
   border: 0;
   clip: rect(0, 0, 0, 0);
 }
-
+/* -----------------Benefits-------------- */
 .benefits-titel {
   font-size: 14px;
   line-height: 1.1429;
@@ -117,6 +116,7 @@ ul {
   color: var(--gray-light);
 }
 
+/* ------------------WORK-------------- */
 .titel {
   font-size: 36px;
   line-height: 1.1666;
@@ -124,17 +124,11 @@ ul {
   letter-spacing: 0.03em;
   color: var(--first-gray);
 }
+
+/* -----------------OUR TEAM----------------- */
 .team {
   background: #f5f4fa;
 }
-
-/* .team-titel {
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--first-gray);
-} */
 
 .team-uptitel {
   font-weight: 500;
@@ -153,8 +147,9 @@ ul {
   color: var(--gray-light);
 }
 
+/* -----------------FOOTER----------------- */
 .footer {
-  background: var(--background-gray)
+  background: var(--background-gray);
 }
 .footer-logo {
   color: var(--titel-white);
@@ -171,4 +166,44 @@ ul {
 
 .map {
   color: var(--titel-white);
+}
+
+/* ------------PORTFOLIO----------------- */
+
+.menu-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-gray);
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.menu-btn:hover,
+.menu-btn:focus,
+.menu-btn:active {
+  color: var(--titel-white);
+  background: var(--effect-color);
+  cursor: pointer;
+}
+
+.example-link {
+  text-decoration: none;
+}
+.example-titel {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--first-gray);
+}
+
+.example-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--gray-light);
 }
